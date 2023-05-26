@@ -12,6 +12,8 @@ RUN pip install runpod
 
 WORKDIR /workspace/stable-diffusion-webui/
 
+ADD test_input.json /src/
+
 ADD cache.py .
 RUN python cache.py --use-cpu=all --ckpt /model.safetensors
 
