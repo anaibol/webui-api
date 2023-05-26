@@ -15,7 +15,7 @@ def check_api_availability(host):
         time.sleep(200/1000)
 
 time.sleep(3)
-check_api_availability("http://0.0.0.0:3000/sdapi/v1/txt2img")
+# check_api_availability("http://0.0.0.0:3000/sdapi/v1/txt2img")
 
 print('run handler')
 
